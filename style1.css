@@ -1,0 +1,77 @@
+.smain h1{
+    text-align: center;
+    font-size: 40px;
+    margin:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.smain p{
+    font-size: 20px;
+    text-align: center;
+}
+.smain .column {
+    float: left;
+    width: 33%;
+    padding: 10px 10px;
+  }
+ .smain .row {margin: 8px}
+ .smain .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      height: 40%;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    text-align: center;
+    background-color: #f1f1f1;
+    
+  }
+  .card i{
+    font-size: 80px;
+    color: rgba(1, 7, 7, 0.892);
+    padding: 10px;
+  }
+  .card p{
+    font-size: 15px;
+    font-family: cursive;
+    padding-top: 10px;
+    color: rgba(20, 21, 21, 0.681);
+  }
+
+
+
+.list{
+    background-color: rgba(128, 128, 128, 0.49);
+}
+.list h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.list .column1 {
+    float: left;
+    width: 33%;
+    padding: 10px 10px;
+  }
+  .list .row1 {margin: 8px}
+  .list .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card1 {
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+    font-size:20px;
+    font-family: cursive;
+    
+  }
